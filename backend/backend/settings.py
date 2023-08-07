@@ -14,8 +14,6 @@ DEBUG = bool(os.getenv('DEBUG'))
 ALLOWED_HOSTS = ['158.160.24.76', '127.0.0.1', 'localhost', 'myfirstproject.ddns.net']
 
 
-# Application definition
-
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
