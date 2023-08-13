@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = bool(os.getenv('DEBUG'))
 
-ALLOWED_HOSTS = ['158.160.24.76', '127.0.0.1', 'localhost', 'myfirstproject.ddns.net']
+ALLOWED_HOSTS = ['158.160.77.126', '127.0.0.1', 'localhost', 'myfirstproject.ddns.net']
 
 
 INSTALLED_APPS = [
